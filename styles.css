@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .empty {
@@ -50,9 +51,14 @@ body {
   color: white;
   padding: 1rem 3rem;
   background-color: blue;
-  border-radius: 10px;
+  border-radius: 12px;
   margin: 2rem;
+}
 
+.left-nav_list > li:hover { 
+  color: blue;
+  background-color: white;
+  border: 1px solid;
 }
 
 .page-content {
