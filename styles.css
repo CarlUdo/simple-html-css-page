@@ -38,7 +38,7 @@ body {
   background-color: greenyellow;
   display: flex;
   justify-content: center; 
-  padding-top: 5rem;
+  padding-top: 2rem;
   
 }
 
@@ -47,7 +47,11 @@ body {
 }
 
 .left-nav_list > li { 
-  padding-bottom: 2rem;
+  color: white;
+  padding: 1rem 3rem;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 2rem;
 
 }
 
