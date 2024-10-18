@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template: 1fr 10fr / 2fr 10fr;
+  gap: 1rem;
+}
+
+.top-nav {
+  background-color: hotpink;
+  padding: 2;
+}
+
+.left-nav {
+  background-color: greenyellow;
+}
+
+.page-content {
+  background-color: lightsalmon;
+}
